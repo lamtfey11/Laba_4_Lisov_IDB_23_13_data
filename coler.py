@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Загрузка данных
-file_path = 'london.csv'  # Укажите путь к вашему файлу
+file_path = 'londonTemp.csv'  # Укажите путь к вашему файлу
 df = pd.read_csv(file_path)
 
 # Преобразуем столбец 'date' в формат datetime
